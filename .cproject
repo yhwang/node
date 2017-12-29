@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.config.gnu.exe.debug.963720008">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.exe.debug.963720008" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.963720008" name="Debug" parent="cdt.managedbuild.config.gnu.exe.debug">
+					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.963720008." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.1063972232" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.exe.debug.1259049126" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<builder buildPath="${workspace_loc:/node}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.1099159416" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.793199469" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.518866171" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
+								<option id="gnu.cpp.compiler.exe.debug.option.optimization.level.1777564778" name="Optimization Level" superClass="gnu.cpp.compiler.exe.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.exe.debug.option.debugging.level.2146360747" name="Debug Level" superClass="gnu.cpp.compiler.exe.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.1573393295" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="NODE_ARCH=x64"/>
+									<listOptionValue builtIn="false" value="NODE_PLATFORM=linux"/>
+									<listOptionValue builtIn="false" value="NODE_WANT_INTERNALS=1"/>
+									<listOptionValue builtIn="false" value="V8_DEPRECATION_WARNINGS=1"/>
+									<listOptionValue builtIn="false" value="NODE_USE_V8_PLATFORM=1"/>
+									<listOptionValue builtIn="false" value="HAVE_INSPECTOR=1"/>
+									<listOptionValue builtIn="false" value="NODE_HAVE_I18N_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="NODE_HAVE_SMALL_ICU=1"/>
+									<listOptionValue builtIn="false" value="HAVE_OPENSSL=1"/>
+									<listOptionValue builtIn="false" value="V8_ENABLE_CHECKS"/>
+									<listOptionValue builtIn="false" value="DEBUG="/>
+									<listOptionValue builtIn="false" value="_DEBUG="/>
+									<listOptionValue builtIn="false" value="U_HAVE_STD_STRING=0"/>
+									<listOptionValue builtIn="false" value="HTTP_PARSER_STRICT=0"/>
+									<listOptionValue builtIn="false" value="_LARGEFILE_SOURCE"/>
+									<listOptionValue builtIn="false" value="NGHTTP2_STATICLIB="/>
+									<listOptionValue builtIn="false" value="_FILE_OFFSET_BITS=64"/>
+									<listOptionValue builtIn="false" value="U_STATIC_IMPLEMENTATION=1"/>
+									<listOptionValue builtIn="false" value="__POSIX__="/>
+									<listOptionValue builtIn="false" value="UCONFIG_NO_SERVICE=1"/>
+									<listOptionValue builtIn="false" value="U_ENABLE_DYLOAD=0"/>
+									<listOptionValue builtIn="false" value="UCONFIG_NO_REGULAR_EXPRESSIONS=1"/>
+									<listOptionValue builtIn="false" value="_POSIX_C_SOURCE=200112"/>
+									<listOptionValue builtIn="false" value="V8_GYP_BUILD"/>
+									<listOptionValue builtIn="false" value="V8_TYPED_ARRAY_MAX_SIZE_IN_HEAP=0"/>
+									<listOptionValue builtIn="false" value="V8_TARGET_ARCH_X64"/>
+									<listOptionValue builtIn="false" value="OBJECT_PRINT"/>
+									<listOptionValue builtIn="false" value="V8_PROMISE_INTERNAL_FIELD_COUNT"/>
+									<listOptionValue builtIn="false" value="VERIFY_HEAP"/>
+									<listOptionValue builtIn="false" value="ENABLE_HANDLE_ZAPPING"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.include.paths.1194859590" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/node/deps/uv/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/node/deps/v8/include}&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/include/c++/5"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1283313471" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.140853373" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.exe.debug.option.optimization.level.569657209" name="Optimization Level" superClass="gnu.c.compiler.exe.debug.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.exe.debug.option.debugging.level.1359536845" name="Debug Level" superClass="gnu.c.compiler.exe.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.379421224" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="NODE_ARCH=x64"/>
+									<listOptionValue builtIn="false" value="NODE_PLATFORM=linux"/>
+									<listOptionValue builtIn="false" value="NODE_WANT_INTERNALS=1"/>
+									<listOptionValue builtIn="false" value="V8_DEPRECATION_WARNINGS=1"/>
+									<listOptionValue builtIn="false" value="NODE_USE_V8_PLATFORM=1"/>
+									<listOptionValue builtIn="false" value="HAVE_INSPECTOR=1"/>
+									<listOptionValue builtIn="false" value="NODE_HAVE_I18N_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="NODE_HAVE_SMALL_ICU=1"/>
+									<listOptionValue builtIn="false" value="HAVE_OPENSSL=1"/>
+									<listOptionValue builtIn="false" value="V8_ENABLE_CHECKS"/>
+									<listOptionValue builtIn="false" value="DEBUG="/>
+									<listOptionValue builtIn="false" value="_DEBUG="/>
+									<listOptionValue builtIn="false" value="U_HAVE_STD_STRING=0"/>
+									<listOptionValue builtIn="false" value="HTTP_PARSER_STRICT=0"/>
+									<listOptionValue builtIn="false" value="_LARGEFILE_SOURCE"/>
+									<listOptionValue builtIn="false" value="NGHTTP2_STATICLIB="/>
+									<listOptionValue builtIn="false" value="_FILE_OFFSET_BITS=64"/>
+									<listOptionValue builtIn="false" value="U_STATIC_IMPLEMENTATION=1"/>
+									<listOptionValue builtIn="false" value="__POSIX__="/>
+									<listOptionValue builtIn="false" value="UCONFIG_NO_SERVICE=1"/>
+									<listOptionValue builtIn="false" value="U_ENABLE_DYLOAD=0"/>
+									<listOptionValue builtIn="false" value="UCONFIG_NO_REGULAR_EXPRESSIONS=1"/>
+									<listOptionValue builtIn="false" value="_POSIX_C_SOURCE=200112"/>
+									<listOptionValue builtIn="false" value="V8_GYP_BUILD"/>
+									<listOptionValue builtIn="false" value="V8_TYPED_ARRAY_MAX_SIZE_IN_HEAP=0"/>
+									<listOptionValue builtIn="false" value="V8_TARGET_ARCH_X64"/>
+									<listOptionValue builtIn="false" value="OBJECT_PRINT"/>
+									<listOptionValue builtIn="false" value="V8_PROMISE_INTERNAL_FIELD_COUNT"/>
+									<listOptionValue builtIn="false" value="VERIFY_HEAP"/>
+									<listOptionValue builtIn="false" value="ENABLE_HANDLE_ZAPPING"/>
+								</option>
+								<option id="gnu.c.compiler.option.include.paths.126409873" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/node/deps/uv/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/node/deps/v8/include}&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/include/c++/5"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2023800664" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.exe.debug.1440929157" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.debug"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug.1074521574" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug">
+								<option id="gnu.cpp.link.option.paths.538767839" superClass="gnu.cpp.link.option.paths" valueType="libPaths"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.478375887" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.exe.debug.814950251" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.exe.debug">
+								<option id="gnu.both.asm.option.include.paths.478133801" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/node/deps/uv/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/node/deps/v8/include}&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/include/c++/5"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1494832110" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.exe.release.945984435">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.exe.release.945984435" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.release.945984435" name="Release" parent="cdt.managedbuild.config.gnu.exe.release">
+					<folderInfo id="cdt.managedbuild.config.gnu.exe.release.945984435." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.release.1665151717" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.release">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.exe.release.1380033076" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.release"/>
+							<builder buildPath="${workspace_loc:/node}/Release" id="cdt.managedbuild.target.gnu.builder.exe.release.522317767" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.release"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1265819822" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1285238523" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release">
+								<option id="gnu.cpp.compiler.exe.release.option.optimization.level.1238117156" name="Optimization Level" superClass="gnu.cpp.compiler.exe.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.exe.release.option.debugging.level.697588094" name="Debug Level" superClass="gnu.cpp.compiler.exe.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.1331606997" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="NODE_ARCH=x64"/>
+									<listOptionValue builtIn="false" value="NODE_PLATFORM=linux"/>
+									<listOptionValue builtIn="false" value="NODE_WANT_INTERNALS=1"/>
+									<listOptionValue builtIn="false" value="V8_DEPRECATION_WARNINGS=1"/>
+									<listOptionValue builtIn="false" value="NODE_USE_V8_PLATFORM=1"/>
+									<listOptionValue builtIn="false" value="HAVE_INSPECTOR=1"/>
+									<listOptionValue builtIn="false" value="NODE_HAVE_I18N_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="NODE_HAVE_SMALL_ICU=1"/>
+									<listOptionValue builtIn="false" value="HAVE_OPENSSL=1"/>
+									<listOptionValue builtIn="false" value="V8_ENABLE_CHECKS"/>
+									<listOptionValue builtIn="false" value="DEBUG="/>
+									<listOptionValue builtIn="false" value="_DEBUG="/>
+									<listOptionValue builtIn="false" value="U_HAVE_STD_STRING=0"/>
+									<listOptionValue builtIn="false" value="HTTP_PARSER_STRICT=0"/>
+									<listOptionValue builtIn="false" value="_LARGEFILE_SOURCE"/>
+									<listOptionValue builtIn="false" value="NGHTTP2_STATICLIB="/>
+									<listOptionValue builtIn="false" value="_FILE_OFFSET_BITS=64"/>
+									<listOptionValue builtIn="false" value="U_STATIC_IMPLEMENTATION=1"/>
+									<listOptionValue builtIn="false" value="__POSIX__="/>
+									<listOptionValue builtIn="false" value="UCONFIG_NO_SERVICE=1"/>
+									<listOptionValue builtIn="false" value="U_ENABLE_DYLOAD=0"/>
+									<listOptionValue builtIn="false" value="UCONFIG_NO_REGULAR_EXPRESSIONS=1"/>
+									<listOptionValue builtIn="false" value="_POSIX_C_SOURCE=200112"/>
+									<listOptionValue builtIn="false" value="V8_GYP_BUILD"/>
+									<listOptionValue builtIn="false" value="V8_TYPED_ARRAY_MAX_SIZE_IN_HEAP=0"/>
+									<listOptionValue builtIn="false" value="V8_TARGET_ARCH_X64"/>
+									<listOptionValue builtIn="false" value="OBJECT_PRINT"/>
+									<listOptionValue builtIn="false" value="V8_PROMISE_INTERNAL_FIELD_COUNT"/>
+									<listOptionValue builtIn="false" value="VERIFY_HEAP"/>
+									<listOptionValue builtIn="false" value="ENABLE_HANDLE_ZAPPING"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.include.paths.179983626" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/node/deps/uv/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/node/deps/v8/include}&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/include/c++/5"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.152239220" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.exe.release.1136579797" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.release">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.exe.release.option.optimization.level.2085891048" name="Optimization Level" superClass="gnu.c.compiler.exe.release.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.exe.release.option.debugging.level.312695405" name="Debug Level" superClass="gnu.c.compiler.exe.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1287485706" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="NODE_ARCH=x64"/>
+									<listOptionValue builtIn="false" value="NODE_PLATFORM=linux"/>
+									<listOptionValue builtIn="false" value="NODE_WANT_INTERNALS=1"/>
+									<listOptionValue builtIn="false" value="V8_DEPRECATION_WARNINGS=1"/>
+									<listOptionValue builtIn="false" value="NODE_USE_V8_PLATFORM=1"/>
+									<listOptionValue builtIn="false" value="HAVE_INSPECTOR=1"/>
+									<listOptionValue builtIn="false" value="NODE_HAVE_I18N_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="NODE_HAVE_SMALL_ICU=1"/>
+									<listOptionValue builtIn="false" value="HAVE_OPENSSL=1"/>
+									<listOptionValue builtIn="false" value="V8_ENABLE_CHECKS"/>
+									<listOptionValue builtIn="false" value="DEBUG="/>
+									<listOptionValue builtIn="false" value="_DEBUG="/>
+									<listOptionValue builtIn="false" value="U_HAVE_STD_STRING=0"/>
+									<listOptionValue builtIn="false" value="HTTP_PARSER_STRICT=0"/>
+									<listOptionValue builtIn="false" value="_LARGEFILE_SOURCE"/>
+									<listOptionValue builtIn="false" value="NGHTTP2_STATICLIB="/>
+									<listOptionValue builtIn="false" value="_FILE_OFFSET_BITS=64"/>
+									<listOptionValue builtIn="false" value="U_STATIC_IMPLEMENTATION=1"/>
+									<listOptionValue builtIn="false" value="__POSIX__="/>
+									<listOptionValue builtIn="false" value="UCONFIG_NO_SERVICE=1"/>
+									<listOptionValue builtIn="false" value="U_ENABLE_DYLOAD=0"/>
+									<listOptionValue builtIn="false" value="UCONFIG_NO_REGULAR_EXPRESSIONS=1"/>
+									<listOptionValue builtIn="false" value="_POSIX_C_SOURCE=200112"/>
+									<listOptionValue builtIn="false" value="V8_GYP_BUILD"/>
+									<listOptionValue builtIn="false" value="V8_TYPED_ARRAY_MAX_SIZE_IN_HEAP=0"/>
+									<listOptionValue builtIn="false" value="V8_TARGET_ARCH_X64"/>
+									<listOptionValue builtIn="false" value="OBJECT_PRINT"/>
+									<listOptionValue builtIn="false" value="V8_PROMISE_INTERNAL_FIELD_COUNT"/>
+									<listOptionValue builtIn="false" value="VERIFY_HEAP"/>
+									<listOptionValue builtIn="false" value="ENABLE_HANDLE_ZAPPING"/>
+								</option>
+								<option id="gnu.c.compiler.option.include.paths.601324295" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/node/deps/uv/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/node/deps/v8/include}&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/include/c++/5"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.434385174" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.exe.release.1243172612" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.release"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.exe.release.1797800710" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.release">
+								<option id="gnu.cpp.link.option.paths.1994318770" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="/usr/include/c++/5"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.913958909" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.exe.release.2092774709" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.exe.release">
+								<option id="gnu.both.asm.option.include.paths.480803885" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/node/deps/uv/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/node/deps/v8/include}&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/include/c++/5"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.16296296" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="node.cdt.managedbuild.target.gnu.exe.66968332" name="Executable" projectType="cdt.managedbuild.target.gnu.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.963720008;cdt.managedbuild.config.gnu.exe.debug.963720008.;cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.518866171;cdt.managedbuild.tool.gnu.cpp.compiler.input.1283313471">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.release.945984435;cdt.managedbuild.config.gnu.exe.release.945984435.;cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1285238523;cdt.managedbuild.tool.gnu.cpp.compiler.input.152239220">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.release.945984435;cdt.managedbuild.config.gnu.exe.release.945984435.;cdt.managedbuild.tool.gnu.c.compiler.exe.release.1136579797;cdt.managedbuild.tool.gnu.c.compiler.input.434385174">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.963720008;cdt.managedbuild.config.gnu.exe.debug.963720008.;cdt.managedbuild.tool.gnu.c.compiler.exe.debug.140853373;cdt.managedbuild.tool.gnu.c.compiler.input.2023800664">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+</cproject>
